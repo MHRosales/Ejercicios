@@ -47,8 +47,10 @@ namespace Ejercicios
         private void button1_Click(object sender, EventArgs e)
         {
             double textbox11 = Convert.ToDouble(textBox1.Text);
-            double 
-            
+            double textbox112 = textbox11 * 12;
+            double textbox12 = Convert.ToDouble(textBox2.Text);
+            label5.Text = textbox112 + textbox12;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
