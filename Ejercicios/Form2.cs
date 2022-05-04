@@ -16,5 +16,17 @@ namespace Ejercicios
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 nuevaventana = new Form3();
+            nuevaventana.Show();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
