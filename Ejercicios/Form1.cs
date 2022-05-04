@@ -38,5 +38,22 @@ namespace Ejercicios
             Form2 nuevaventana = new Form2();
             nuevaventana.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double textbox11 = Convert.ToDouble(textBox1.Text);
+            double 
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
