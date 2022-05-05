@@ -15,6 +15,7 @@ namespace Ejercicios
         public Form1()
         {
             InitializeComponent();
+            label5.Visible = false;
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -46,11 +47,13 @@ namespace Ejercicios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double textbox11 = Convert.ToDouble(textBox1.Text);
-            double textbox112 = textbox11 * 12;
-            double textbox12 = Convert.ToDouble(textBox2.Text);
-            label5.Text = textbox112 + textbox12;
-
+            double S = Convert.ToDouble(textBox1.Text);
+            double S1 = Convert.ToDouble(textBox2.Text);
+            double meses = 12;
+            double añosameses = meses * S;
+            double suma = añosameses + S1;
+            this.label5.Text = suma.ToString();
+            label5.Visible = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
