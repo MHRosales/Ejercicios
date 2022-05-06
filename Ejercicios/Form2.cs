@@ -40,5 +40,10 @@ namespace Ejercicios
             this.label4.Text = total.ToString();
             label4.Visible = true;
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Validar.SoloNumeros(e);
+        }
     }
 }
