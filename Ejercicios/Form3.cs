@@ -15,6 +15,7 @@ namespace Ejercicios
         public Form3()
         {
             InitializeComponent();
+            label8.Visible = false; 
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -27,6 +28,36 @@ namespace Ejercicios
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double salariomes = Convert.ToDouble(textBox1.Text);
+            double C1 = Convert.ToDouble(textBox2.Text);
+            double C2 = Convert.ToDouble(textBox3.Text);
+            double C3 = Convert.ToDouble(textBox4.Text);
+
+            double totalcomision = (C1 + C2 + C3);
+            double porcentajecomision = totalcomision * 0.10;
+            double salariototal = porcentajecomision + salariomes;
+
+            this.label8.Text = salariototal.ToString();
+            label8.Visible=true;
         }
     }
 }
