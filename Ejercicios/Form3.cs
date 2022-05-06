@@ -59,5 +59,10 @@ namespace Ejercicios
             this.label8.Text = salariototal.ToString();
             label8.Visible=true;
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
