@@ -11,15 +11,13 @@ using System.Windows.Forms;
 namespace Ejercicios
 {
     public partial class Form1 : Form
+
     {
         public Form1()
         {
+
             InitializeComponent();
             label5.Visible = false;
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -59,6 +57,21 @@ namespace Ejercicios
         private void Form1_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+            Validar.SoloNumeros(e);
+           
+
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+           
+            Validar.SoloNumeros(e);
+           
         }
     }
 }
