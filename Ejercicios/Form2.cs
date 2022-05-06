@@ -15,6 +15,7 @@ namespace Ejercicios
         public Form2()
         {
             InitializeComponent();
+            label4.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -27,6 +28,17 @@ namespace Ejercicios
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double capital = Convert.ToDouble(textBox1.Text);
+            double ganancias = capital * 0.025;
+            double ganancias12 = ganancias * 12;
+
+            double total = capital + ganancias12;
+            this.label4.Text = total.ToString();
+            label4.Visible = true;
         }
     }
 }

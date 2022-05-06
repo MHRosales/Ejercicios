@@ -45,6 +45,7 @@ namespace Ejercicios
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             double S = Convert.ToDouble(textBox1.Text);
             double S1 = Convert.ToDouble(textBox2.Text);
             double meses = 12;
@@ -52,6 +53,7 @@ namespace Ejercicios
             double suma = añosameses + S1;
             this.label5.Text = suma.ToString();
             label5.Visible = true;
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
