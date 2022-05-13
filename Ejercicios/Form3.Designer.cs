@@ -102,7 +102,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(177, 20);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Ingrese su venta #1";
+            this.label5.Text = "Ingrese su venta #3";
             // 
             // textBox2
             // 
