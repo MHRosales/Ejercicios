@@ -21,7 +21,7 @@ namespace Ejercicios
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form3 nuevaventana = new Form3();
+            Form6 nuevaventana = new Form6();
             nuevaventana.Show();
         }
 

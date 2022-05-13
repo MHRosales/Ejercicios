@@ -103,7 +103,7 @@ namespace Ejercicios
         private void button3_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 nuevaventana = new Form1();
+            Form6 nuevaventana = new Form6();
             nuevaventana.Show();
         }
     }
