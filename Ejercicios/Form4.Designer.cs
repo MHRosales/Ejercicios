@@ -92,6 +92,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(192, 20);
             this.txtUsuario.TabIndex = 5;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // txtContra1
             // 
