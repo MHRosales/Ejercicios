@@ -11,8 +11,8 @@ namespace Ejercicios
     {
         public static MySqlConnection ObtenerConexion()
         {
-            MySqlConnection conectar = new MySqlConnection("server=127.0.0.1; database=rosales20120208; Uid = root; pwd =info2022; ");
-conectar.Open();
+            MySqlConnection conectar = new MySqlConnection("server=127.0.0.1; database=rosales20120208; Uid =root; pwd =info2022; ");
+            conectar.Open();
             return conectar;
         }
     }

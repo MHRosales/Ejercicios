@@ -14,7 +14,7 @@ namespace Ejercicios
         {
             {
                 int retorno = 0;
-                MySqlCommand comando = new MySqlCommand(string.Format("Insert into usuarios (Nombre_Usuario, Password) values('{0}', '{1}')",
+                MySqlCommand comando = new MySqlCommand(string.Format("Insert into usuario (Nombre_Usuario, Contraseña) values('{0}', '{1}')",
 
                 usuario, encriptada), Datos.ObtenerConexion());
                 retorno = comando.ExecuteNonQuery();
