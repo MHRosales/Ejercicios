@@ -24,6 +24,23 @@ namespace Ejercicios
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Form5 nuevaventana = new Form5();
+            nuevaventana.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }
