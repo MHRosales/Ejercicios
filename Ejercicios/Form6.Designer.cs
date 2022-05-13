@@ -60,9 +60,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(96, 213);
+            this.button1.Location = new System.Drawing.Point(88, 191);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 82);
+            this.button1.Size = new System.Drawing.Size(134, 126);
             this.button1.TabIndex = 25;
             this.button1.Text = "Ejercicio 25";
             this.button1.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(333, 214);
+            this.button2.Location = new System.Drawing.Point(328, 191);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 81);
+            this.button2.Size = new System.Drawing.Size(134, 126);
             this.button2.TabIndex = 26;
             this.button2.Text = "Ejercicio 26";
             this.button2.UseVisualStyleBackColor = true;
@@ -80,9 +80,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(559, 213);
+            this.button3.Location = new System.Drawing.Point(559, 191);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 82);
+            this.button3.Size = new System.Drawing.Size(134, 126);
             this.button3.TabIndex = 27;
             this.button3.Text = "Ejercicio 27";
             this.button3.UseVisualStyleBackColor = true;
@@ -92,6 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);

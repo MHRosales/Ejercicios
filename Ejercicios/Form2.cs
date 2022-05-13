@@ -45,5 +45,10 @@ namespace Ejercicios
         {
             Validar.SoloNumeros(e);
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

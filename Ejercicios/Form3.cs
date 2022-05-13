@@ -106,5 +106,10 @@ namespace Ejercicios
             Form6 nuevaventana = new Form6();
             nuevaventana.Show();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
